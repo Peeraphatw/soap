@@ -1,0 +1,25 @@
+{
+  "name": "training-register",
+  "version": "2.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=development && nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "config": "^3.1.0",
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "morgan": "1.9.1",
+    "mssql": "4.3.1",
+    "nodemon": "1.18.10",
+    "soap": "0.25.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
